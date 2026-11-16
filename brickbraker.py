@@ -20,16 +20,13 @@ def inicia_jogo():
         pg.display.update()
         
 class Jogador:
-
-    #--------------------------------------------------------------------------#
     def __init__(self, cor, tamanho_barra, velocidade):
 
         self.cor = cor
         self.velocidade = velocidade
         self.tamanho_barra = tamanho_barra
         self.jogador = None
-    
-    #--------------------------------------------------------------------------#
+        
     def cria_jogador(self, altura):
         self.jogador = pg.Rect(350, altura-50, self.tamanho_barra, 15)
     
