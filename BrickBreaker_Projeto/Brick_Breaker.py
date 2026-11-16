@@ -1,5 +1,3 @@
-# Brick_Breaker.py
-
 import pygame as pg
 import random
 from Jogador import Jogador
