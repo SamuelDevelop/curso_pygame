@@ -1,5 +1,3 @@
-# Bolinha.py
-
 import pygame as pg
 import random as rd
 from Pontos import Pontos as pts
