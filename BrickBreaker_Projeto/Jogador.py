@@ -1,5 +1,3 @@
-# Jogador.py
-
 import pygame as pg
 
 class Jogador:
