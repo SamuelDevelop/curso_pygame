@@ -1,10 +1,7 @@
 import pygame as pg
 import random
 
-
-#Setup Inicial
 pg.init()
-
 
 velocidade = 5
 largura, altura = 900, 700
@@ -34,7 +31,6 @@ controlPos = pg.Vector2(velocidade, 0)
 
 listaCobra = []
 
-#loop principal
 while True:
     tela.fill(corTela)
 
