@@ -1,5 +1,3 @@
-#Bloco.py
-
 import pygame as pg
 
 class Bloco:
